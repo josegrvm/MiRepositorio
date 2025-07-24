@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.celda {
+    background-color: blueviolet;
+    border: 2px, black, solid;
+    width: 40px;
+    height: 40x;
+    display: inline-block;
+
+}
+.col{
+    background-color: blueviolet;
+    border: 2px, black, solid;
+    width: 40px;
+    height: 40x;
+    display: inline-block;
+
+}
+
+.row{
+    color: brown;
+}
