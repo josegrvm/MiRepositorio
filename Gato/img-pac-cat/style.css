@@ -3,22 +3,42 @@
     padding: 0;
 }
 
-.celda {
-    background-color: blueviolet;
-    border: 2px, black, solid;
-    width: 40px;
-    display: inline-block;
 
+.fila{
+    line-height: 0;
 }
+
 .col{
-    background-color: blueviolet;
-    border: 2px, black, solid;
+    background-color: purple; 
+    height: 40px;
     width: 40px;
-    height: 40x;
     display: inline-block;
-
 }
 
-.row{
-    color: brown;
+.burguer {
+    background-color: black; 
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('burguer.png');
+    background-size: contain;
+    }
+
+.blank {
+    background-color: black; 
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+#gato {
+    background-color: black; 
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url("gato.gif");
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 40px;
 }
