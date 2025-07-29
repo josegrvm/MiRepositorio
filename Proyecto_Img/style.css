@@ -46,7 +46,7 @@ img{
 
 .row3{
     background-color: #82e0aa;
-        display: flex;
+    display: flex;
     justify-content:space-between;
     border-radius: 0 0 20px 20px;
 }
