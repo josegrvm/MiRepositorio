@@ -472,7 +472,7 @@ function modify(arr) {
 }
 console.log(modify(x));
 
-*/
+
 
 function saluda() {
 
@@ -629,3 +629,6 @@ function saluda() {
 
 console.log(saluda()); //Imprime aquí ¡Hola mundo!
 
+*/
+
+console.log("Hola mundo")
