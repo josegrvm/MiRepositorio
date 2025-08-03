@@ -105,7 +105,7 @@ li a:hover{
     border: 4px #fff solid;;
     background-image: url(Img/yo.avif);
     background-size: cover;
-    position: absolute;
+    position:absolute;
     box-shadow: 0 0 10px 0 black;
     top: 150px;
     left: 80px;
@@ -140,6 +140,7 @@ h5, p{
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 3px 0 black;
+    text-decoration: none;
 }
 
 .cuerpo2{
@@ -176,33 +177,22 @@ aside li{
     font-weight: 300;
     display: flex;
     align-items: center;
-
 }
-.fotos_img1{
+
+
+aside div .personas1 li a img{
     height: 40px;
     width: 40px;
-    background-image: url(Img/img1.avif);
-    background-size: cover;
     border-radius: 10px;
-    margin:10px;
-    border: 2px #4ebcd5 solid;
+    margin: 10px 10px 10px 20px;
+    border: 3px #4ebcd5 solid;
 }
 
-.fotos_img2{
+aside div .personas2 li a img{
     height: 40px;
     width: 40px;
-    background-image: url(Img/img2.avif);
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-    border: 2px #4ebcd5 solid;
-}
-
-
-.personas{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 20px;
 }
 
 .Solicitudes{
@@ -218,62 +208,4 @@ aside li{
     margin-top: 30px;
     border-radius: 0 0 10px 10px;
     box-shadow:  0 4px 2px 2px #F3F1F1;
-}
-
-.fotos_img3{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img3.avif);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-}
-
-.fotos_img4{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img4.avif);
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-}
-
-.fotos_img5{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img5.avif);
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-}
-
-.fotos_img6{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img6.avif);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-}
-
-.fotos_img7{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img7.avif);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
-}
-
-.fotos_img8{
-    height: 40px;
-    width: 40px;
-    background-image: url(Img/img8.avif);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    margin:10px;
 }
