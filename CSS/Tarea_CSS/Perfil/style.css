@@ -230,6 +230,9 @@ aside .usuario{
     display: flex;
     align-items: center;
     cursor: pointer;
+        font-size: 15px;
+    font-weight: 300;
+
 }
 
 .Conexiones img{
