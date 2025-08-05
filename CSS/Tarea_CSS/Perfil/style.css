@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -30,18 +31,19 @@ header{
     align-items: center;
 }
 
-div header h2{
+.logo{
+    font-size: 40px;
+    padding-left: 20px;
     margin: 30px;
     color: #fff;
 }
 
-.nav{
+nav{
     display: flex;
     justify-content: end;
-
 }
 
-.lista{ 
+.lista-nav{ 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -62,14 +64,19 @@ li a{
     transition: color 0.3 ease;
 }
 
-header div .Sesion{
+header nav .cerrar-sesion{
     margin-right: 30px;
     padding: 10px;
     border-radius: 5px;
     background-color: #4ebcd5;
     color: #fff;       
     text-decoration: none;
+    cursor: pointer;
+}
 
+header nav .cerrar-sesion:hover{
+    background-color: white;
+    color:#4ebcd5;
 }
 
 li a:hover{
@@ -79,19 +86,20 @@ li a:hover{
 /*CUERPO*/
 
 
-.cuerpo1{
+.perfil{
     width: 550px;
     margin: 10px;
     background-color: #fff;
 
 }
 
-.cuerpo1 div{
+.perfil div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.header{
+
+.header-perfil{
     height: 100px;
     width: 100%;
     background-color: #4ebcd5;
@@ -105,19 +113,19 @@ li a:hover{
     border: 4px #fff solid;;
     background-image: url(Img/yo.avif);
     background-size: cover;
-    position:absolute;
+    position:relative;
     box-shadow: 0 0 10px 0 black;
-    top: 150px;
-    left: 80px;
+    top: -50px;
+    left: 40px;
 }
 
-.Profile{
-    height: 420px;
-    display: flex;
+.profile{
+    margin-top: -120px;
     border-radius: 0 0 10px 10px;
     box-shadow:  0 4px 2px 2px #F3F1F1;
 
 }
+
 
 h1{
     margin: 80px 0 10px 40px;
@@ -126,7 +134,7 @@ h1{
 
 }
 
-h5,p, .Edit, h2{
+h5,p, .edit-profile, h2{
     margin: 10px 40px;
     font-family: system-ui;
 }
@@ -135,15 +143,26 @@ h5, p{
     color: #808080;
 }
 
-.Edit{
+.edit-profile{
     padding: 10px;
     border: none;
-    border-radius: 10px;
-    box-shadow: 0 0 3px 0 black;
+    color: #4ebcd5;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+
+
 }
 
-.cuerpo2{
+a img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+
+
+.educacion{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -160,7 +179,6 @@ div h2{
 
 
 aside{
-    height: 660px;
     width: 350px;
     display: flex;
     flex-direction: row;
@@ -171,28 +189,24 @@ aside h2{
     margin: 10px;
 }
 
-aside li{
+aside .usuario{
     list-style-type: none;
     font-size: 15px;
     font-weight: 300;
     display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
     align-items: center;
+    cursor: pointer;
 }
 
 
-aside div .personas1 li a img{
+.imagenes{
     height: 40px;
     width: 40px;
     border-radius: 10px;
     margin: 10px 10px 10px 20px;
     border: 3px #4ebcd5 solid;
-}
-
-aside div .personas2 li a img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin: 10px 10px 10px 20px;
 }
 
 .Solicitudes{
@@ -205,7 +219,34 @@ aside div .personas2 li a img{
 
 .Conexiones{
     width: 90%;
-    margin-top: 30px;
     border-radius: 0 0 10px 10px;
     box-shadow:  0 4px 2px 2px #F3F1F1;
+}
+
+.Conexiones ul{
+    list-style: none;
+}
+
+.Conexiones li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Conexiones img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.aceptar, .rechazar{    
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.icono{
+    display: flex;
+    justify-content: end;
 }
