@@ -1,0 +1,46 @@
+
+
+div{
+    margin: 20px;
+}
+
+.button{
+
+    height: 30px;
+    width: 100px;
+    border: 2px black solid;
+}
+
+.button1{
+    height: 30px;
+    width: 100px;
+    border: 2px black solid; 
+    background-color: aquamarine;
+
+}
+
+.button2{
+    height: 30px;
+    width: 100px;
+    border: 2px black solid; 
+    background-color: red;
+
+}
+
+.button3{
+    height: 30px;
+    width: 100px;
+    border: 2px black solid; 
+    background-color: yellow;
+
+}
+
+
+
+.limpiar{
+    height: 30px;
+    width: 100px;
+    border: 2px black solid; 
+}
+
+
