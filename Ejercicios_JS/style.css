@@ -38,37 +38,56 @@ header ul li{
 
 section{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
 }
 
 h2{
-    width: 100%;
     display: flex;
     justify-content: center;
     margin: 50px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.bloques{
+.container_tarjeta{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tajeta{
     background-color: #f9f9f9;
-    height: 200px;
     width: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
     align-items: center;
-    box-shadow:  0 2px 2px 2px #F3F1F1;
+    box-shadow:  0 0px 8px  #33333333;
+    text-align: center;
 }
 
-footer{
+.tajeta p {
+    align-items: center;
+}
+
+#banner{
     height: 50px;
-    display: inline;
     background-color: black;
     width: 100%;
     color: #fff;
+    position: fixed;
+    display: flex;
+    padding: 5px;
+    gap: 4px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
 }
 
-footer button{
+#banner button{
     background-color: yellow;
+    padding: 5px;
 }
