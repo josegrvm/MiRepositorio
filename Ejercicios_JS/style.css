@@ -1,46 +1,74 @@
 
 
-div{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #3498f7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+header ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+header ul li{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.temperatura{
     margin: 20px;
-}
-
-.button{
-
-    height: 30px;
-    width: 100px;
-    border: 2px black solid;
-}
-
-.button1{
-    height: 30px;
-    width: 100px;
-    border: 2px black solid; 
-    background-color: aquamarine;
+    font-size: 20px;
 
 }
 
-.button2{
-    height: 30px;
-    width: 100px;
-    border: 2px black solid; 
-    background-color: red;
-
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.button3{
-    height: 30px;
-    width: 100px;
-    border: 2px black solid; 
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.bloques{
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:  0 2px 2px 2px #F3F1F1;
+}
+
+footer{
+    height: 50px;
+    display: inline;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+}
+
+footer button{
     background-color: yellow;
-
 }
-
-
-
-.limpiar{
-    height: 30px;
-    width: 100px;
-    border: 2px black solid; 
-}
-
-
