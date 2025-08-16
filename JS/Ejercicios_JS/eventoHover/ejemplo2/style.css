@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}
+
+.hovered {
+    background-color: #ff9999;
+    color: white;
+}
