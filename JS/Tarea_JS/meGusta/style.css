@@ -1,0 +1,93 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2{
+    padding-top: 20px;
+
+}
+
+.profile{
+    height: 200px;
+    width: 160px;
+    border: 2px #333333 solid;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usuario{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    border: 2px #333333 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.post-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 5px 30px;
+    background-color: #fcd84a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
