@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Tiempo Local</h1>
-        <nav>
-            <ul>
-                <li><a href=""></a>Buenos aires</li>
-                <li><a href=""></a>Ciudad de Mexico</li>
-                <li><a href=""></a>Santiago</li>
-                <li><a href=""></a>Sao Paulo</li>
-                <li><a href=""></a>Quito</li>
-            </ul>
-        </nav>
-        <div class="temperatura">
-            <label>Mostar temperatura en</label> 
-            <select>
-                <option value="value1">C°</option>
-                <option value="value2">F°</option>
-            </select>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tiempo Local</h1>
+            <nav>
+                <ul>
+                    <li>Buenos Aires</li>
+                    <li>Ciudad Mexico</li>
+                    <li>Santiago</li>
+                    <li>Sao Paulo/li>
+                    <li>Quito</li>
+                </ul>
+            </nav>
+            <div>
+                <label for="temperatura">Mostrar temperatura en</label>
+                <select id="temperatura" onchange="changeTemperatura()">
+                    <option value="C">C</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+        </header>
+        <section>
+            <h2>Buenos Aires</h2>
+            <div id="contenedorTarjetas">
+                <div class="tarjeta">
+                    <img src="https://placehold.co/80x80">
+                    <strong>Hoy</strong>
+                    <p>Nublado</p>
+                    <p>22° <span class="temperaturaSigno">C</span> 15° <span class="temperaturaSigno">C</span></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="https://placehold.co/80x80">
+                    <strong>Mañana</strong>
+                    <p>Lluvioso</p>
+                    <p>20° <span class="temperaturaSigno">C</span> 13° <span class="temperaturaSigno">C</span></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="https://placehold.co/80x80">
+                    <strong>Miercoles</strong>
+                    <p>Tormentas</p>
+                    <p>18° <span class="temperaturaSigno">C</span> 11° <span class="temperaturaSigno">C</span></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="https://placehold.co/80x80">
+                    <strong>Jueves</strong>
+                    <p>Parcialmente nublado</p>
+                    <p>21° <span class="temperaturaSigno">C</span> 14° <span class="temperaturaSigno">C</span></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="https://placehold.co/80x80">
+                    <strong>Viernes</strong>
+                    <p>Soleaso</p>
+                    <p>24° <span class="temperaturaSigno">C</span> 17° <span class="temperaturaSigno">C</span></p>
+                </div>
+            </div>
+        </section>
+        <div id="banner">
+            <p>Detente! Tiempo de cookies. Usamos cookies (tristemente, no las comestibles) para personalizar contenido y anuncios, proporcionar funciones de redes sociales y analizar nuestro tráfico.</p>
+            <a href="">Leer más</a>
+            <button onclick="removeBannerThis(this)">Acepto</button>
         </div>
-    </header>
-    <section>
-        <h2>Buenos Aires</h2>
-        <div class="container_tarjeta">
-            <div class="tajeta">
-                <img src="https://placehold.co/80x80">
-                <h3>Hoy</h3>
-                <p>Nublado</p>
-                <p>22°C° 15°C°</p>
-            </div>
-            <div class="tajeta">
-                <img src="https://placehold.co/80x80">
-                <h3>Mañana</h3>
-                <p>Lluvioso</p>
-                <p>20°C° 13°C°</p>
-            </div>
-            <div class="tajeta">
-                <img src="https://placehold.co/80x80">
-                <h3>Miercoles</h3>
-                <p>Tormentas</p>
-                <p>18°C° 11°C°</p>
-            </div>
-            <div class="tajeta">
-                <img src="https://placehold.co/80x80">
-                <h3>Jueves</h3>
-                <p>Parcialmente nublado</p>
-                <p>21°C° 14°C°</p>
-            </div>
-            <div class="tajeta">
-                <img src="https://placehold.co/80x80">
-                <h3>Viernes</h3>
-                <p>Soleado</p>
-                <p>24°C° 17°C°</p>
-            </div>
-        </div>
-    </section>
-    <div onclick="" id="banner">
-        <p>Detente! Tiempo de cookies. Usamos cookies (tristemente, no las comestibles) para personalizar contenido y anuncios, proporcionar funciones de redes sociales y analizar nuestro tráfico.</p>
-        <a href="">Leer mas</a>
-        <button>Acepto</button>
-    </div> 
-
-    <script src="prueba.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>

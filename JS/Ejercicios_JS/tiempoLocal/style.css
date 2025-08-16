@@ -1,93 +1,68 @@
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+            * {
+                margin: 0;
+            }
 
-header{
-    background-color: #3498f7;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-}
+            header {
+                background-color: #3498f7;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                padding: 10px 0px;
+            }
 
-header ul{
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+            header ul {
+                display: flex;
+                gap: 20px;
+            }
 
-}
+            header ul li {
+                list-style: none;
+            }
 
-header ul li{
-    margin-right: 20px;
-    color: #fff;
-    font-size: 20px;
-}
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px 0px;
+                gap: 50px;
+            }
 
-.temperatura{
-    margin: 20px;
-    font-size: 20px;
+            .tarjeta{
+                border: 1px #e4d9d9 solid;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                padding: 10px 20px;
+                background-color: #F9F9F9;
+                box-shadow: 0px 0px 10px rgb(214, 211, 211);
+            }
 
-}
+            #contenedorTarjetas{
+                display: flex;
+                gap: 20px;
+            }
 
-section{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
+            #banner{
+                background-color: black;
+                color: white;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                padding: 10px 0px;
+                align-items: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
 
-h2{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    font-size: 40px;
-}
+            #banner button {
+                background-color: yellow;
+                padding: 5px;
+            }
 
-.container_tarjeta{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.tajeta{
-    background-color: #f9f9f9;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    box-shadow:  0 0px 8px  #33333333;
-    text-align: center;
-}
-
-.tajeta p {
-    align-items: center;
-}
-
-#banner{
-    height: 50px;
-    background-color: black;
-    width: 100%;
-    color: #fff;
-    position: fixed;
-    display: flex;
-    padding: 5px;
-    gap: 4px;
-    bottom: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-#banner button{
-    background-color: yellow;
-    padding: 5px;
-}
