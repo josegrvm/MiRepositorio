@@ -32,17 +32,17 @@ console.log(resultado); // { a: 1, b: 2, c: 3 , b: 4, c: 5, d: 6 }
 
 
 /* Ámbito de variables en funciones y bloques */
-// const verificar = () => { 
-//     if (true) {
-//         const a = 2;
-//         let b = 3;
-//         var c = 4;
-//     }
-//     console.log(c); // 4
-//     console.log(a); // error
-//     console.log(b); // error
-// };
-// verificar(); 
+const verificar = () => { 
+    if (true) {
+        const a = 2;
+        let b = 3;
+        var c = 4;
+    }
+    console.log(c); // 4
+    console.log(a); // error
+    console.log(b); // error
+};
+verificar(); 
         // Resultado:
 // 4
 // error.  =  "var" es legible afuera del bloque if mientras "let" y "const" no ya que son ambito de bloque
