@@ -1,4 +1,3 @@
-
 //jercicio 1: Conversor de temperatura
 
 //Crea una función flecha que convierta temperaturas de grados Celsius a Fahrenheit. La fórmula para convertir Celsius
@@ -25,7 +24,7 @@ console.log(saludar("jose", 24));
 
 // Crea una función flecha que convierta millas a kilómetros. Considera que: 1 milla = 1.60934 km
 
-const millasAkilometros = (millas) => millas >= 0 ? millas * 1.60934 : "Entrada no valida";
+const millasAkilometros = (millas) => millas >= 0 ? millas * 1.60934 : 'Entrada no valida';
 
 
 
@@ -40,8 +39,9 @@ const millasAkilometros = (millas) => millas >= 0 ? millas * 1.60934 : "Entrada 
 
 
 const obtenerConsejoClima = (clima) =>
-    clima === "lluvioso" ? "debe sugerir llevar un paraguas" :
-    clima === "soleado" ? "soleado”, debe sugerir llevar un sombrero" :
+    clima === "lluvioso" ? 'debe llevar un paraguas' :
+    clima === "soleado" ? 'debes llevar un sombrero' : 
+    'es un lindo dia';
 
 console.log(obtenerConsejoClima("soleado"));
 console.log(obtenerConsejoClima("lluvioso"));
