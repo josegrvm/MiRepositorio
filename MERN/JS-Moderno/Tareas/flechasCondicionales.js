@@ -4,8 +4,7 @@
 //Crea una función flecha que convierta temperaturas de grados Celsius a Fahrenheit. La fórmula para convertir Celsius
 //a Fahrenheit es: Fahreneit = (Celsius * 9 / 5) + 32
 
-const CerlsiusAFahrenheit = (cerlsius) => fahrenheit = (cerlsius * 9/5) + 32;
-
+const CerlsiusToFahrenheit = (cerlsius) => (cerlsius * 9/5) + 32;
 
 
 
@@ -16,6 +15,8 @@ const CerlsiusAFahrenheit = (cerlsius) => fahrenheit = (cerlsius * 9/5) + 32;
 // "Hola Juan, tienes 30 años de edad."
 
 
+const saludar = (nombre, edad) => `Hola ${nombre}, tienes ${edad} años de edad`;
+console.log(saludar("jose", 24));
 
 
 
@@ -24,7 +25,7 @@ const CerlsiusAFahrenheit = (cerlsius) => fahrenheit = (cerlsius * 9/5) + 32;
 
 // Crea una función flecha que convierta millas a kilómetros. Considera que: 1 milla = 1.60934 km
 
-
+const millasAkilometros = (millas) => millas >= 0 ? millas * 1.60934 : "Entrada no valida";
 
 
 
@@ -36,3 +37,11 @@ const CerlsiusAFahrenheit = (cerlsius) => fahrenheit = (cerlsius * 9/5) + 32;
 // Si el clima es “lluvioso”, debe sugerir llevar un paraguas.
 // Si el clima es “soleado”, debe sugerir llevar un sombrero.
 // Utiliza el operador ternario para simplificar la evaluación condicional en este ejercicio.
+
+
+const obtenerConsejoClima = (clima) =>
+    clima === "lluvioso" ? "debe sugerir llevar un paraguas" :
+    clima === "soleado" ? "soleado”, debe sugerir llevar un sombrero" :
+
+console.log(obtenerConsejoClima("soleado"));
+console.log(obtenerConsejoClima("lluvioso"));
