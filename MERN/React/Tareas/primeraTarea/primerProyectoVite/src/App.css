@@ -1,0 +1,21 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #f0f0f0f0;
+}
+
+h1{
+  color: #2c3e50;
+}
+
+h2{
+  color: #46a086;
+}
+
+li{
+  color: black;
+  list-style: none;
+}
