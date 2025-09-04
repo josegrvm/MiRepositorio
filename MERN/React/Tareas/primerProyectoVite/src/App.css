@@ -1,6 +1,9 @@
 #root {
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 body{
@@ -11,8 +14,17 @@ h1{
   color: #2c3e50;
 }
 
+.listados{
+padding: 0;
+}
+
 h2{
   color: #46a086;
+  margin: 0;
+}
+
+ul{
+  padding: 0;
 }
 
 li{
