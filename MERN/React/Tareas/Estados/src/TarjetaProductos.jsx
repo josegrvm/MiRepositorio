@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css"; // Importamos el CSS
+import "./App.css";
 
 function TarjetaProducto({ nombreProducto, precio, descripcion, stockInicial }) {
     const [stock, setStock] = useState(stockInicial);
